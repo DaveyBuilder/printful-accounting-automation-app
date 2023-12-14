@@ -1,0 +1,31 @@
+{
+    "name": "printfulautomationapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "bin": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "csv-parser": "^3.0.0",
+        "csv-writer": "^1.6.0",
+        "dotenv": "^16.3.1",
+        "express": "4.x",
+        "hbs": "^4.1.2",
+        "node-fetch": "^2.6.1"
+    },
+    "engines": {
+        "node": "18.15.0"
+    },
+    "pkg": {
+        "scripts": "*.js",
+        "assets": [
+            "views/**/*"
+        ],
+        "targets": [
+            "node18-win-x64"
+        ]
+    },
+    "license": "MIT"
+}
